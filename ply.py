@@ -118,14 +118,14 @@ def main(file1, file2):
     compare_point_clouds(file1, file2)
 
     # 可视化点云（只显示z>1的点）
-    logging.info("Visualizing point clouds (only z > 5)...")
+    logging.info("Visualizing point clouds (only z > 85)...")
     visualize_point_cloud(file1)
     visualize_point_cloud(file2)
 
 if __name__ == "__main__":
     # 指定两个点云文件路径
-    file1 = "zhuzi1.ply"  # 替换为你的文件路径
+    file1 = "zhuzi12.ply"  # 替换为你的文件路径
     file2 = "pointcloud-unity-total.ply"  # 替换为你的文件路径
 
     # 运行主函数
-    main(file1, file32)
+    main(file1, file2)
