@@ -128,4 +128,4 @@ if __name__ == "__main__":
     file2 = "pointcloud-unity-total.ply"  # 替换为你的文件路径
 
     # 运行主函数
-    main(file1, file32)
+    main(file1, file2)
